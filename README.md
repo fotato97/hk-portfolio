@@ -1,5 +1,7 @@
 # 한국경제 AI 교육 포트폴리오
 
+웹사이트: https://fotato97.github.io/hk-portfolio/
+
 `dist/article.html`, `dist/image.html`, `dist/video.html`, `dist/final.html`은 각각 독립적인 HTML 파일입니다. `dist/index.html`은 기사 페이지와 동일한 시작 화면입니다. HTML 파일을 직접 열거나 `node server.mjs` 실행 후 http://127.0.0.1:4173 에서 확인하세요.
 
 공통 스타일은 `dist/style.css`, 동작은 `dist/app.js`, 이미지는 `dist/assets/ribbon.png`입니다. 폴더 전체를 함께 보관하세요. 페이지 텍스트를 직접 수정할 수 있습니다. `build.mjs`를 수정하고 실행하면 모든 HTML이 다시 생성됩니다.
