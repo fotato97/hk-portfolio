@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+  <defs>
+    <linearGradient id="heart" x1=".17" y1=".06" x2=".83" y2=".95" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff0fa"/>
+      <stop offset=".22" stop-color="#ff9ecb"/>
+      <stop offset=".52" stop-color="#ff4e93"/>
+      <stop offset=".82" stop-color="#cf2677"/>
+      <stop offset="1" stop-color="#842078"/>
+    </linearGradient>
+    <radialGradient id="shine" cx=".27" cy=".17" r=".72">
+      <stop offset="0" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#7a1d6e" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <path d="M32 54C27 49 6 34 6 21 6 12 12 6 21 6c5 0 9 2 11 7 2-5 6-7 11-7 9 0 15 6 15 15 0 13-21 28-26 33Z" fill="url(#heart)" stroke="#a92773" stroke-width="1.5" filter="url(#shadow)"/>
+  <path d="M32 54C27 49 6 34 6 21 6 12 12 6 21 6c5 0 9 2 11 7 2-5 6-7 11-7 9 0 15 6 15 15 0 13-21 28-26 33Z" fill="url(#shine)"/>
+  <path d="M10 21c0-6 4-11 11-11 4 0 7 2 9 6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <ellipse cx="17" cy="15" rx="4" ry="2.4" transform="rotate(-30 17 15)" fill="#fff" opacity=".84"/>
+  <path d="M46 37c-4 5-9 9-14 13" fill="none" stroke="#88155f" stroke-width="2" stroke-linecap="round" opacity=".28"/>
+</svg>

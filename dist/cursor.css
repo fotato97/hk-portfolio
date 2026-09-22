@@ -1,0 +1,10 @@
+.heart-cursor,.heart-sparkle{display:none;position:fixed;pointer-events:none;z-index:2147483647}
+@media (pointer:fine) and (prefers-reduced-motion:no-preference){
+  html.heart-cursor-active,html.heart-cursor-active *{cursor:none!important}
+  html.heart-cursor-active .heart-cursor{display:block;width:42px;height:42px;background:url('assets/heart-cursor.svg') center/contain no-repeat;transform:translate(-50%,-50%) scale(1);filter:drop-shadow(0 4px 7px rgba(102,22,99,.25));will-change:left,top,transform;transition:transform .15s ease,opacity .15s ease}
+  html.heart-cursor-active .heart-cursor.is-interactive{transform:translate(-50%,-50%) scale(1.22)}
+  html.heart-cursor-active .heart-cursor.is-pressed{transform:translate(-50%,-50%) scale(.86)}
+  html.heart-cursor-active .heart-cursor.is-hidden{opacity:0}
+  html.heart-cursor-active .heart-sparkle{display:block;width:var(--size,12px);height:var(--size,12px);background:radial-gradient(circle at 28% 24%,#fff 0 12%,#fff8ca 27%,#ff8ed1 60%,#7b55e2 100%);clip-path:polygon(50% 0,59% 36%,100% 50%,59% 64%,50% 100%,41% 64%,0 50%,41% 36%);filter:drop-shadow(0 1px 2px #7f48bc) drop-shadow(0 0 4px #ffb7e8);animation:heart-sparkle-float .7s ease-out forwards}
+}
+@keyframes heart-sparkle-float{0%{opacity:1;transform:translate(-50%,-50%) scale(.55) rotate(0deg)}50%{opacity:.95}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(.1) rotate(var(--angle))}}
