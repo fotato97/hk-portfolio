@@ -4,7 +4,7 @@ body{background:var(--yellow);color:var(--ink)}
 .top{height:82px;margin-top:30px;border:0;background:#fff}
 .brand{gap:9px}.brand strong{font-size:16px;letter-spacing:-.8px}.brand small{font-size:8px;letter-spacing:1.6px;color:#777}
 .mark{width:34px;height:34px;border-radius:50%;background:var(--yellow);color:#171a1b;font-size:19px;font-weight:700;letter-spacing:-3px;padding-right:3px}
-nav{gap:30px}nav a{color:#333;font-size:12px;font-weight:500}nav a.active{color:#111;font-weight:700}nav a.active:after{height:2px;background:#171a1b}
+nav{gap:30px}nav a{color:#333;font-size:12px;font-weight:500}nav a.active{color:#111;font-weight:700}nav a.active:after{height:2px;background:#171a1b}.top nav a[href="introduce.html"]{color:#333;font-weight:500;font-family:inherit}
 .top>.button{background:var(--yellow);color:#111;border-radius:999px;font-size:12px;padding:10px 18px;font-weight:700}
 main.wrap{background:#fff;padding-top:1px;padding-bottom:55px;min-height:70vh}
 body[data-page="introduce"] .intro{display:none}
