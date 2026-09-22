@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="title">
+  <title id="title">노란 캐릭터가 창작 스튜디오에서 연필을 들고 있는 일러스트</title>
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4b4b45"/><stop offset="1" stop-color="#20231f"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#ffe45c"/><stop offset=".58" stop-color="#ffc915"/><stop offset="1" stop-color="#e9a400"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#ffdd31"/><stop offset="1" stop-color="#e9a500"/></linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a5b6bd"/><stop offset="1" stop-color="#65777e"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1100" height="620" fill="url(#room)"/>
+  <g opacity=".65"><path d="M0 75h1100M0 175h1100M210 0v350M570 0v350M930 0v350" stroke="#92948b" stroke-width="9"/><path d="M0 83h1100M0 183h1100" stroke="#d4d0bc" stroke-width="2"/></g>
+  <rect x="53" y="215" width="185" height="175" fill="url(#window)" opacity=".65"/><path d="M145 215v175M53 302h185" stroke="#2d3736" stroke-width="9"/>
+  <rect x="865" y="206" width="178" height="195" fill="url(#window)" opacity=".7"/><path d="M950 206v195M865 300h178" stroke="#2d3736" stroke-width="8"/>
+  <path d="M0 490h1100v130H0z" fill="#282923"/><path d="M0 488h1100" stroke="#5b5a4c" stroke-width="12"/>
+  <g opacity=".78"><rect x="25" y="355" width="245" height="136" rx="12" fill="#3f4747"/><rect x="61" y="375" width="146" height="85" rx="7" fill="#6a7778"/><rect x="140" y="470" width="235" height="20" rx="8" fill="#a28f62"/><rect x="910" y="405" width="155" height="84" rx="10" fill="#343b3b"/><rect x="875" y="478" width="212" height="18" rx="8" fill="#8d815f"/></g>
+  <ellipse cx="608" cy="566" rx="280" ry="42" fill="#0f100d" opacity=".42" filter="url(#shadow)"/>
+  <g transform="translate(420 45)">
+    <ellipse cx="204" cy="479" rx="197" ry="139" fill="url(#body)"/>
+    <circle cx="72" cy="113" r="63" fill="#f8bd16"/><circle cx="340" cy="112" r="63" fill="#f8bd16"/>
+    <circle cx="76" cy="111" r="30" fill="#e6a608"/><circle cx="337" cy="109" r="30" fill="#e6a608"/>
+    <rect x="8" y="72" width="394" height="340" rx="180" fill="url(#face)"/>
+    <path d="M88 190q32-12 62-1M263 189q31-12 61-1" fill="none" stroke="#35302a" stroke-width="13" stroke-linecap="round"/>
+    <ellipse cx="117" cy="241" rx="9" ry="13" fill="#292c28"/><ellipse cx="296" cy="241" rx="9" ry="13" fill="#292c28"/>
+    <ellipse cx="156" cy="300" rx="53" ry="37" fill="#fff5dd"/><ellipse cx="254" cy="300" rx="53" ry="37" fill="#fff5dd"/><ellipse cx="205" cy="274" rx="20" ry="16" fill="#30312b"/><path d="M205 290q0 21-24 26M205 290q0 21 24 26" fill="none" stroke="#6a5542" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="45" cy="457" rx="53" ry="58" fill="#f6bb0b" transform="rotate(-25 45 457)"/><ellipse cx="362" cy="452" rx="53" ry="58" fill="#f6bb0b" transform="rotate(23 362 452)"/>
+    <path d="M175 455q-43-42-69 1 22 48 68 69l28-38z" fill="#fff6e4"/>
+    <path d="M368 461 487 424" stroke="#252820" stroke-width="20" stroke-linecap="round"/><path d="m478 425 34-11-25 27z" fill="#ffecac"/>
+    <ellipse cx="199" cy="457" rx="38" ry="25" fill="#f6bf12" transform="rotate(-23 199 457)"/>
+  </g>
+  <rect width="1100" height="620" fill="#11140f" opacity=".12"/>
+</svg>
