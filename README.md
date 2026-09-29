@@ -14,6 +14,8 @@
 
 검증: HTML 진입점, 내부 링크와 자산 경로, JavaScript 문법, HTTP 응답을 확인합니다. 브라우저 UI 자동화 테스트와 WebMCP 실행 검증은 별도로 수행하지 않았습니다.
 
-소개 화면에는 `assets/article-icons-3d.png` 열린 노트 에셋을 사용하고, 기사 상단에는 위아래로 움직이는 `assets/cloud-mascot-3d.png` 3D 구름을 사용합니다.
+소개 화면에는 `assets/article-icons-3d.png` 열린 노트 에셋을 사용하고, 기사 상단에는 부드러운 경로로 날아다니는 `assets/paper-plane-3d.png` 3D 종이비행기를 사용합니다.
 
 마우스 포인터는 `assets/cloud-mascot-3d.png`를 사용한 3D 구름 커서이며, 이동할 때 블루·민트 미니 구름 입자가 따라옵니다.
+
+영상 페이지의 대표 화면에는 `assets/video-production-3d.png` 3D 클래퍼보드·카메라 에셋을 사용합니다.
