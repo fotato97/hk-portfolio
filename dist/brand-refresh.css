@@ -360,3 +360,9 @@ body[data-page="video"] .cinema .feature-copy p{max-width:100%}
   body[data-page="video"] .screen{min-height:300px;grid-row:1}
   body[data-page="video"] .cinema .feature-copy{padding:30px 24px}
 }
+
+@media(max-width:1000px){
+  body[data-page="video"] .cinema{grid-template-columns:1fr;min-height:0}
+  body[data-page="video"] .screen{min-height:380px;grid-row:1}
+  body[data-page="video"] .cinema .feature-copy{padding:36px 32px}
+}
